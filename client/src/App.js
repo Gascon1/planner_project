@@ -18,34 +18,34 @@ export default class App extends Component {
       ],
       data: [
         {
-          name: "serge",
-          email: "serge@serge.com",
-          group: "losers"
+          name: "Hector Ramirez",
+          email: "hector.ramirez@planned.com",
+          group: "Human Resources"
         },
         {
-          name: "mikel",
-          email: "mikel@mikel.com",
-          group: "winners"
+          name: "Ivan Reitman",
+          email: "ivan.reitman@planned.com",
+          group: "Developer"
         },
         {
-          name: "serge",
-          email: "serge@serge.com",
-          group: "losers"
+          name: "Robert Duhnman",
+          email: "robert.duhnman@planned.com",
+          group: "Marketing"
         },
         {
-          name: "mikel",
-          email: "mikel@mikel.com",
-          group: "winners"
+          name: "Emilie Roads",
+          email: "emilie.roads@planned.com",
+          group: "Developer"
         },
         {
-          name: "serge",
-          email: "serge@serge.com",
-          group: "losers"
+          name: "Melissa Gilbert",
+          email: "melissa.gilbert@planned.com",
+          group: "Human Resources"
         },
         {
-          name: "mikel",
-          email: "mikel@mikel.com",
-          group: "winners"
+          name: "Ezra Miller",
+          email: "ezra.miller@planned.com",
+          group: "Marketing"
         }
       ],
       selectedRow: null
