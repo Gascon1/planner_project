@@ -60,12 +60,20 @@ export default class App extends Component {
         data={this.state.data}
         onRowClick={(evt, selectedRow) => this.setState({ selectedRow })}
         options={{
+          exportButton: true,
           grouping: true,
+          pageSize: 10,
+
           rowStyle: rowData => ({
-            backgroundColor:
+            color:
               this.state.selectedRow &&
               this.state.selectedRow.tableData.id === rowData.tableData.id
                 ? "#52a27e"
+                : "#000",
+            backgroundColor:
+              this.state.selectedRow &&
+              this.state.selectedRow.tableData.id === rowData.tableData.id
+                ? "#EEE"
                 : "#FFF"
           })
         }}
