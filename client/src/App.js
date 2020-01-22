@@ -55,7 +55,7 @@ export default class App extends Component {
   render() {
     return (
       <MaterialTable
-        title="Assignment before getting the job"
+        title="Planned take home test"
         columns={this.state.columns}
         data={this.state.data}
         onRowClick={(evt, selectedRow) => this.setState({ selectedRow })}
